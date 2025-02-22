@@ -1,8 +1,9 @@
 # Denodo HackUDC 2025
-Participantes: 
-Jesús José Santamaría Santos, Mario Lamas Angeriz, Rubén Lesta Fraga y Andrés Rey Luna
-
-
+## **Participantes**  
+### Jesús José Santamaría Santos  
+### Mario Lamas Angeriz  
+### Rubén Lesta Fraga  
+### Andrés Rey Luna  
 Este proyecto consiste en la creación de un entorno basado en **Denodo Express y AI SDK** para facilitar el procesamiento y análisis de datos mediante inteligencia artificial. Se ha desarrollado como parte del reto propuesto por **Denodo en HackUDC 2025**, con el objetivo de construir un **chatbot capaz de responder preguntas sobre una base de datos estructurada**.  
 
 ## **¿Qué hace este proyecto?**  
