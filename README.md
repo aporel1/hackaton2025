@@ -1,7 +1,3 @@
-Aquí tienes la explicación mejorada con el apartado sobre cómo usar el **VQL** en tu repositorio:
-
----
-
 # **Denodo HackUDC 2025**  
 Este proyecto consiste en la creación de un entorno basado en **Denodo Express y AI SDK** para facilitar el procesamiento y análisis de datos mediante inteligencia artificial. Se ha desarrollado como parte del reto propuesto por **Denodo en HackUDC 2025**, con el objetivo de construir un **chatbot capaz de responder preguntas sobre una base de datos estructurada**.  
 
