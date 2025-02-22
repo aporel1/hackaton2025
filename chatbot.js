@@ -91,7 +91,8 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
     document.getElementById("logout").addEventListener("click", () => {
-        //meter aqui lo de ir a la pantalla de login
+        alert("Cerrando sesion...");
+        window.location.href = "login.html";
     })
 
     document.getElementById("del-btn").addEventListener("click", () => {
