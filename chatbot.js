@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+    setTimeout(() => {
+        addMessage("¡Bienvenido a Olympedia 2024! Pregunta lo que quieras sobre los JJOO.", "bot");
+    }, 500);
+
     const usuario = "admin";
     const credenciales = btoa(`${usuario}:${usuario}`); 
 
@@ -17,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         msgDiv.textContent = text;
         chatHistory.appendChild(msgDiv);
         autoScroll();
+        inputField.readOnly = false;
     }
 
     function enviar() {
@@ -72,6 +77,8 @@ document.addEventListener("DOMContentLoaded", () => {
             .catch(error => {
                 console.error('Error en la consulta:', error);
             });
+
+            inputField.readOnly = true;
     }
 
     sendButton.addEventListener("click", enviar);
@@ -81,6 +88,17 @@ document.addEventListener("DOMContentLoaded", () => {
             event.preventDefault();
             enviar();
         }
+    })
+
+    document.getElementById("logout").addEventListener("click", () => {
+        //meter aqui lo de ir a la pantalla de login
+    })
+
+    document.getElementById("del-btn").addEventListener("click", () => {
+        document.getElementById("answer").replaceChildren();
+        setTimeout(() => {
+            addMessage("Borrado realizado!", "bot");
+        }, 250);
     })
 
 });

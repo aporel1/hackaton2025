@@ -4,18 +4,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Chat AI - JJOO 24</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylebot.css">
     </head>
+    
     <body>
-        <header>OLYMPEDIA 2024</header>
+        
+        <header>
+            <img src = "assets/premium_photo-1711031505781-2a45c879ceac.jpg" alt = "OLYMPEDIA '24" class = "olympedia">
+            <img src = "assets/premium_photo-1711031505781-2a45c879ceac.jpg" alt = "incon molon" class = "logomolon">
+            <button class = "log-outButton" id = logout titel = "Salir">Log Out</button>
+        </header>
 
         <div id="answer" class="chat-history"></div>
 
         <div class="chat-input">
+            <button class = "delbtn" id="del-btn" title = "Eliminar">🗑️</button>
             <input type="text" id="query-asked" placeholder="Escribe tu pregunta aquí...">
-            <button id="send-btn">➤</button>
+            <button  class = "sendbtn" id="send-btn" titel = "Enviar">➤</button>
         </div>
-
+        
         <script src = "chatbot.js"></script>
     </body>
 </html>

@@ -1,0 +1,188 @@
+/* OK */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #262626; /* Fondo oscuro  0D0D0D */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* OK */
+header {
+    top: 0;
+    width: 100%;
+    background: #1A1A1A;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px 0;
+    z-index: 100;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logomolon {
+    height: 50px;
+}
+
+/* Imagen centro */
+.olympedia {
+    margin-left: 2%;
+    height: 60px;
+}
+
+/* Botón en la derecha */
+.log-outButton {
+    align-self: right;
+    padding: 10px 15px;
+    background: #FFCC00; /* Rojo olímpico */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-right: 2%;
+}
+
+.log-outButton:hover {
+    background: #0085C7; /* Azul olímpico */
+}
+
+/* NADA */ 
+/*.chat-container {
+    display: inline-block;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+    min-width: 600px;
+    height: 100%;
+    background: #262626;
+    margin-top: 1000px;
+    padding-bottom: 1000px;
+}
+
+/* OK */
+.chat-history {
+    flex-grow: 1; /* Se expande para ocupar el espacio disponible */
+    min-height: 75.5%; /* Altura mínima desde el inicio */
+    max-height: 75.5%; /* Máxima altura para evitar crecimiento dinámico */
+    min-width: 95%;
+    max-width: 95%;
+    overflow-y: auto; /* Scroll cuando sea necesario */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #555 #2b2b2b;
+    background-color: #303030;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* OK */
+.message {
+    max-width: 75%;
+    padding: 12px 16px;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    word-wrap: break-word;
+    display: inline-block;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* OK */
+.user-message {
+    align-self: flex-end;
+    background: #0085C7;
+    color: white;
+    text-align: right;
+    border-radius: 12px 12px 0 12px;
+}
+
+/* OK */
+.bot-message {
+    align-self: flex-start;
+    background: #34A853;
+    color: white;
+    text-align: left;
+    border-radius: 12px 12px 12px 0;
+}
+
+/* OK */
+.chat-input {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background: #262626;
+    position: fixed;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* OK */
+input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #FFCC00;
+    color: black;
+    font-size: 16px;
+    outline: none;
+}
+
+input::placeholder {
+    color: #333;
+}
+
+/* OK */
+.sendbtn {
+    padding: 8px 8px;
+    border: none;
+    border-radius: 6px;
+    background: #FFCC00;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.sendbtn:hover {
+    background: #34A853;
+}
+
+.delbtn {
+    padding: 8px 8px;
+    border: none;
+    border-radius: 6px;
+    background: #FFCC00;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.delbtn:hover {
+    background: #D81E05;
+}
