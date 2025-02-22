@@ -27,13 +27,8 @@ header {
 }
 
 .logomolon {
-    height: 50px;
-}
-
-/* Imagen centro */
-.olympedia {
     margin-left: 2%;
-    height: 60px;
+    height: 50px;
 }
 
 /* Botón en la derecha */
@@ -52,20 +47,6 @@ header {
 
 .log-outButton:hover {
     background: #0085C7; /* Azul olímpico */
-}
-
-/* NADA */ 
-/*.chat-container {
-    display: inline-block;
-    flex-grow: 1;
-    flex-direction: column;
-    width: 90%;
-    max-width: 600px;
-    min-width: 600px;
-    height: 100%;
-    background: #262626;
-    margin-top: 1000px;
-    padding-bottom: 1000px;
 }
 
 /* OK */
@@ -185,4 +166,25 @@ input::placeholder {
 
 .delbtn:hover {
     background: #D81E05;
+}
+
+
+h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(90deg, #0085C7, #D81E05, #FFCC00, #34A853, #000000);
+    background-size: 300% 300%; /* Asegura que todos los colores se desplacen */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animar-gradiente 5s infinite linear;
+}
+
+@keyframes animar-gradiente {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; } /* Punto intermedio donde todos los colores aparecen */
+    100% { background-position: 0% 50%; }
 }
