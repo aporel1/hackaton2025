@@ -1,11 +1,15 @@
-# Denodo HackUDC 2025
-Este proyecto consiste en la creación de un entorno basado en **Denodo Express y AI SDK** para facilitar el procesamiento y análisis de datos mediante inteligencia artificial. Se ha desarrollado como parte del reto propuesto por **Denodo en HackUDC 2025**, con el objetivo de construir un **chatbot capaz de responder preguntas sobre una base de datos estructurada**. 
+Aquí tienes la explicación mejorada con el apartado sobre cómo usar el **VQL** en tu repositorio:
+
+---
+
+# **Denodo HackUDC 2025**  
+Este proyecto consiste en la creación de un entorno basado en **Denodo Express y AI SDK** para facilitar el procesamiento y análisis de datos mediante inteligencia artificial. Se ha desarrollado como parte del reto propuesto por **Denodo en HackUDC 2025**, con el objetivo de construir un **chatbot capaz de responder preguntas sobre una base de datos estructurada**.  
 
 ## **Participantes**  
 ### Jesús José Santamaría Santos  
 ### Mario Lamas Angeriz  
 ### Rubén Lesta Fraga  
-### Andrés Rey Luna   
+### Andrés Rey Luna  
 
 ## **¿Qué hace este proyecto?**  
 El sistema permite cargar datos en **Denodo Express**, procesarlos con el **AI SDK** y utilizarlos para responder preguntas en lenguaje natural. Para ello, el **AI SDK de Denodo** se conecta con **Google AI Studio** y usa el modelo **Gemini** para mejorar la comprensión de las preguntas y ofrecer respuestas basadas en los datos disponibles.  
@@ -41,4 +45,20 @@ Este proyecto permite interactuar con datos estructurados de manera sencilla y e
 - Crear asistentes virtuales basados en datos internos.  
 - Facilitar la consulta de información en entornos educativos o de investigación.  
 
-Este desarrollo demuestra cómo **Denodo AI SDK** puede integrarse con tecnologías modernas para ofrecer soluciones innovadoras basadas en inteligencia artificial y procesamiento de datos.
+Este desarrollo demuestra cómo **Denodo AI SDK** puede integrarse con tecnologías modernas para ofrecer soluciones innovadoras basadas en inteligencia artificial y procesamiento de datos.  
+
+---
+
+## **Cómo usar el VQL**  
+
+Para importar los datos y vistas en **Denodo Design Studio**, sigue estos pasos:  
+
+1. **Accede al repositorio del proyecto.**  
+2. **Dirígete al directorio `export_DB/`.**  
+3. **Descomprime el archivo `export.zip`.**  
+4. **Abre Denodo Design Studio e importa los archivos VQL.**  
+   - Ve a **File > Import** en Denodo.  
+   - Selecciona los archivos descomprimidos del ZIP.  
+   - Confirma la importación y espera a que se procesen los datos.  
+
+Esta estructura permite mantener organizados los archivos **source** (CSV) y **view** (VQL), asegurando que el entorno de **Denodo Express** pueda utilizarlos correctamente para la consulta de datos.
