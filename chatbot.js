@@ -19,6 +19,12 @@ document.addEventListener("DOMContentLoaded", () => {
         const msgDiv = document.createElement("div");
         msgDiv.classList.add("message", remitente == "user" ? "user-message" : "bot-message");
         msgDiv.textContent = text;
+
+        // Verificar si el texto contiene la palabra "DISCLAIMER"
+        if (text.includes("DISCLAIMER")) {
+            msgDiv.style.border = "2px solid #D81E05"; // Aplicar borde rojo
+        }
+
         chatHistory.appendChild(msgDiv);
         autoScroll();
         inputField.readOnly = false;
