@@ -176,7 +176,7 @@ h2 {
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
-    background: linear-gradient(90deg, #0085C7, #D81E05, #FFCC00, #34A853, #000000);
+    background: linear-gradient(90deg, #0085C7, #D81E05, #FFCC00, #34A853);
     background-size: 300% 300%; /* Asegura que todos los colores se desplacen */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
