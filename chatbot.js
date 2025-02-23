@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "markdown_response": true,
             "vector_search_k": 5,
             "mode": "default",
-            "disclaimer": true,
+            "disclaimer": false,
             "verbose": true
         };
     
