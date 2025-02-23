@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const msgDiv = document.createElement("div");
         msgDiv.classList.add("message", remitente == "user" ? "user-message" : "bot-message");
         msgDiv.textContent = text;
-        if (text.includes("DISCLAIMER")) {
+        if (text.includes("Sorry" || "sorry")) {
             msgDiv.style.border = "2px solid #D81E05"; // Aplicar borde rojo
         }
         chatHistory.appendChild(msgDiv);
