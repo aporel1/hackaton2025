@@ -98,11 +98,20 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = "login.html";
     })
 
+    let deleteClicked = 0;
+    const jsConfeti = new JSConfetti({});
+
     document.getElementById("del-btn").addEventListener("click", () => {
         document.getElementById("answer").replaceChildren();
+        deleteClicked++;
         setTimeout(() => {
             addMessage("Borrado realizado!", "bot");
         }, 250);
+
+        if(deleteClicked >= 10) {
+            jsConfeti.addConfetti();
+            deleteClicked = 0;
+        }
     })
 
 });
