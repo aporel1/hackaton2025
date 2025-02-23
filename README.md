@@ -7,6 +7,13 @@ Este proyecto consiste en la creación de un entorno basado en **Denodo Express 
 ### Rubén Lesta Fraga  
 ### Andrés Rey Luna  
 
+## **Contacto para Issues**  
+Si encuentras un problema o tienes alguna consulta sobre este proyecto, puedes contactar con nosotros a través de los siguientes correos:  
+- j.j.ssantos@udc.es
+- m.lamasa@udc.es   
+- ruben.lesta@udc.es  
+- andres.rey1@udc.es  
+
 ## **¿Qué hace este proyecto?**  
 El sistema permite cargar datos en **Denodo Express**, procesarlos con el **AI SDK** y utilizarlos para responder preguntas en lenguaje natural. Para ello, el **AI SDK de Denodo** se conecta con **Google AI Studio** y usa el modelo **Gemini** para mejorar la comprensión de las preguntas y ofrecer respuestas basadas en los datos disponibles.  
 
@@ -43,7 +50,7 @@ Este proyecto permite interactuar con datos estructurados de manera sencilla y e
 
 Este desarrollo demuestra cómo **Denodo AI SDK** puede integrarse con tecnologías modernas para ofrecer soluciones innovadoras basadas en inteligencia artificial y procesamiento de datos.  
 
----
+---  
 
 ## **Cómo usar el VQL**  
 
@@ -58,3 +65,4 @@ Para importar los datos y vistas en **Denodo Design Studio**, sigue estos pasos:
    - Confirma la importación y espera a que se procesen los datos.  
 
 Esta estructura permite mantener organizados los archivos **source** (CSV) y **view** (VQL), asegurando que el entorno de **Denodo Express** pueda utilizarlos correctamente para la consulta de datos.
+
